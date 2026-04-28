@@ -17,7 +17,7 @@ def main():
         return
 
     client = genai.Client(api_key=api_key)
-    chat_session = client.chats.create(model="gemma-3-27b-it")
+    chat_session = client.chats.create(model="gemini-2.5-flash-lite")
 
     print("Google AI Studio 챗봇 시작 (종료: 'exit')")
     print("-" * 40)
